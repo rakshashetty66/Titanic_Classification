@@ -86,41 +86,4 @@ Using the Random Forest model, feature importance is analyzed to understand the 
 3. Age: Younger passengers, especially children, were more likely to survive.
 4. Family Size: Passengers with moderate family sizes showed higher survival likelihood.
 
-# Setup and Installation
-
-Prerequisites
-
-Make sure you have the following installed:
-Python (>=3.6)
-Required Python libraries: pandas, numpy, scikit-learn
-Installation
-Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/titanic-survival-prediction.git
-cd titanic-survival-prediction
-Install the required libraries:
-
-bash
-Copy code
-pip install -r requirements.txt
-Download the dataset from Kaggle and place the train.csv file in the project folder.
-
-Usage
-Run the script to train and evaluate the models:
-
-bash
-Copy code
-python titanic_survival_prediction.py
-Review the printed results for each model's accuracy, classification report, and feature importance.
-
-Results and Insights
-The analysis and model evaluations showed that:
-
-Gender: Females had a significantly higher survival rate.
-Class: Passengers in higher classes (1st and 2nd) had better chances of survival.
-Age: Younger passengers, particularly children, were more likely to survive.
-Family Size: Moderate family sizes improved survival likelihood.
-This project not only demonstrates the implementation of classification algorithms but also provides insights into the social and personal factors that influenced survival on the Titanic.
 
